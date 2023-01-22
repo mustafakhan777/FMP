@@ -1,0 +1,77 @@
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.maindiv {
+    background-image: linear-gradient(to bottom right, #df4a9c, black);
+    height: 50vh;
+
+    /* border-radius: 0px 0px 400px 0px; */
+
+}
+
+.welcome {
+    font-size: 70px;
+    color: black;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-style: italic;
+    /* -webkit-text-stroke: .px black; */
+}
+
+@media screen and (max-width: 465px) {
+    .welcome {
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .welcome {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .welcome {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .welcome {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 344px) {
+    .welcome {
+        font-size: 45px;
+    }
+}
+
+.bgidea {
+    background-image: url('https://media.istockphoto.com/id/1039087980/photo/light-bulb-in-hand.jpg?s=612x612&w=0&k=20&c=I9T0nDlEGemF8ccnbMcDhDF7Lzbr0KMx_3oEdJ6_Xgk=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    /* width: 1500px; */
+}
+
+
+@media screen and (max-width: 425px) {
+    .bgidea {
+        background-size: 500px 500px;
+    }
+}
+
+/* .ideaswritten {
+    text-align: ;
+} */

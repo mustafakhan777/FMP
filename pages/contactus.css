@@ -1,0 +1,16 @@
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.contactbox {
+    border-top: 1px inset black;
+    border-bottom: 1px inset black;
+    background-image: linear-gradient(to left, pink, black);
+}
